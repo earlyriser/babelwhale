@@ -7,7 +7,7 @@ function drawRegionsMap() {
   var data = google.visualization.arrayToDataTable([
     ['Country', 'Status'],
     ['United Kingdom',  1],
-    ['USA', 1], 
+    ['United States', 1], 
     ['Australia',  1],
     ['Canada',  1],
     ['Ireland',  1],
@@ -113,9 +113,9 @@ function drawRegionsMap() {
     ['Central African Republic', 0],
     ['Cameroon', 0],
     ['Madagascar', 0],
-    ['Guinea', 0]
+    ['Guinea', 0],
     
-    
+    ['Germany', 0]
   ]);
 
   var options = {
