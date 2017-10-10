@@ -98,22 +98,22 @@ function drawRegionsMap() {
     ['Singapore', 0],
     ['Cocos', 0],
     
-    ['France', 0],
-    ['Luxembourg', 0],
-    ['Monaco', 0],
-    ['Gabon', 0],
-    ['Mauritius', 0],
-    ['Senegal', 0],
-    ['Ivory Coast', 0],
-    ['Mali', 0],
-    ['Niger', 0],
-    ['Burkina Faso', 0],
-    ['Congo', 0],
-    ['Democratic Republic of Congo', 0],
-    ['Central African Republic', 0],
-    ['Cameroon', 0],
-    ['Madagascar', 0],
-    ['Guinea', 0],
+    ['France', 1],
+    ['Luxembourg', 1],
+    ['Monaco', 1],
+    ['Gabon', 1],
+    ['Mauritius', 1],
+    ['Senegal', 1],
+    ['Ivory Coast', 1],
+    ['Mali', 1],
+    ['Niger', 1],
+    ['Burkina Faso', 1],
+    ['Congo', 1],
+    ['Democratic Republic of Congo', 1],
+    ['Central African Republic', 1],
+    ['Cameroon', 1],
+    ['Madagascar', 1],
+    ['Guinea', 1],
     
     ['Germany', 0]
   ]);
@@ -146,7 +146,7 @@ angular.module('App', ['sticky']).controller('LangCtrl', function($scope, $http)
     {id:"ja",   name:"Japanese",  ready:false},
     {id:"ru",   name:"Russian",  ready:false},
     {id:"ms",   name:"Malay",  ready:false},
-    {id:"fr",   name:"French",  ready:false},
+    {id:"fr",   name:"French",  ready:true},
     {id:"de",   name:"German",  ready:false}
   ];
   $scope.english = null;
